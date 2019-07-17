@@ -47,7 +47,7 @@
   - Image Version:
   - Priveleged: unchecked
   - Service Role: New Service Role
-![screen](./images/img-5.png)
+- ![screen](./images/img-5.png)
 - Buildspec
   - Insert Build Command: Insert build commands
   - switch to editor: enter the buildspec.yml text from repo
