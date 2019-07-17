@@ -44,7 +44,7 @@
   - Operating System: Ubuntu
   - Runtime: Standard
   - Image: aws/codebuild/standard: 1.0
-  - Image Version:
+  - Image Version: select an image version
   - Priveleged: unchecked
   - Service Role: New Service Role
 ![screen](./images/img-5.png)
