@@ -23,7 +23,7 @@
 - Choose source provider (GitHub) and connect to GitHub by providing your credentials.
 - Choose the repository and the branch that you want to deploy.
 - Select use GitHub webhooks and click next.
-- SEE AWS CODE BUILD INSTRUCTIONS
+- **JUMP DOWN TO AWS CODE BUILD INSTRUCTIONS**
 - Choose deploy provider (Elastic Beanstalk)
   - choose the region
   - application name
@@ -34,9 +34,10 @@
 ![screen](./images/img-3.png)
 
 ### AWS Code Build
-- Create Code Build Project
+![screen](./images/img-4.png)
+- Create build project
 - Project Name: php-pipeline-app
-- description: add a description
+- Description: add a description
 - Source: no source
 - Enviroment
   - Enviroment: Managed Image
@@ -46,15 +47,16 @@
   - Image Version:
   - Priveleged: unchecked
   - Service Role: New Service Role
-- BuildSpec
-  - Insert Build Command: Insert Build commands
+![screen](./images/img-5.png)
+- Buildspec
+  - Insert Build Command: Insert build commands
   - switch to editor: enter the buildspec.yml text from repo
 - Artifacts
   - Type: No Artifacts
 - Logs
   - CloudWatch Logs: checked
 - Create Build - push the button
-- RETURN TO AWS CODEPIPELINE INSTRUCTIONS AND CONTINUE AFTER THE AWS CODEBUILD STEP
+- **RETURN TO AWS CODEPIPELINE INSTRUCTIONS AND CONTINUE AFTER THE AWS CODEBUILD STEP**
 
 ### Issues
 - EC2 Instance limit
